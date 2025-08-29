@@ -252,6 +252,10 @@
                     <groupId>ca.juliusdavies</groupId>
                     <artifactId>not-yet-commons-ssl</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>org.apache.santuario</groupId>
+                    <artifactId>xmlsec</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
@@ -369,4 +373,3 @@
     </properties>
 
 </project>
-
