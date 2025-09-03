@@ -186,7 +186,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.15.0</version>
+            <version>3.18.0</version>
             <scope>provided</scope>
         </dependency>
 
@@ -208,6 +208,16 @@
             <groupId>com.auth0</groupId>
             <artifactId>java-jwt</artifactId>
             <version>4.4.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -244,6 +254,15 @@
                     <groupId>commons-collections</groupId>
                     <artifactId>commons-collections</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>commons-lang</groupId>
+                    <artifactId>commons-lang</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.velocity</groupId>
+                    <artifactId>velocity</artifactId>
+                </exclusion>
+
             </exclusions>
         </dependency>
 
@@ -460,7 +479,7 @@
         <!--        <plugin.testrunner.version>2.0.2</plugin.testrunner.version>-->
         <atlassian.spring.scanner.version>1.2.13</atlassian.spring.scanner.version>
         <osgi.javaconfig.version>0.6.0</osgi.javaconfig.version>
-        <spring.version>5.3.37</spring.version>
+        <spring.version>6.2.10</spring.version>
         <org.slf4j.version>2.0.13</org.slf4j.version>
         <!-- This property ensures consistency between the key in atlassian-plugin.xml and the OSGi bundle's key. -->
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
