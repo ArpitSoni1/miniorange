@@ -283,7 +283,7 @@
         <amps.version>8.1.2</amps.version>
         <plugin.testrunner.version>2.0.2</plugin.testrunner.version>
         <osgi.javaconfig.version>0.6.0</osgi.javaconfig.version>
-        <spring.version>5.3.39</spring.version>
+        <spring.version>6.2.11</spring.version>
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
@@ -291,3 +291,4 @@
     </properties>
 
 </project>
+
