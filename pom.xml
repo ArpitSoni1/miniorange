@@ -21,7 +21,7 @@
         <bitbucket.data.version>${bitbucket.version}</bitbucket.data.version>
         <atlassian.plugin.key>${project.groupId}.${project.artifactId}</atlassian.plugin.key>
         <osgi.javaconfig.version>0.6.0</osgi.javaconfig.version>
-        <spring.version>6.2.7</spring.version>
+        <spring.version>5.3.4</spring.version>
         <plugin.testrunner.version>2.0.2</plugin.testrunner.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
